@@ -5,4 +5,8 @@
 4. git add . comando que prepara los archivos y cambios para adjuntar.
 5. git commit -m " Ejemplo 1ra sesion de aprendizaje de comandos ". Este comando se usa como una bitácora.
 6. git push SIN PUNTOS NI MAYUSCULAS. comando para enviar los archivos al repositorio remoto.
-7. git pull SIN PUNTOS NI MAYUSCULAS. comando por si en algun momento sale un error al empujar algunas referencias, intentamos ejecutarlo y nuevamente git push.gitgit add
+7. git pull SIN PUNTOS NI MAYUSCULAS. comando por si en algun momento sale un error al empujar algunas referencias, intentamos ejecutarlo y nuevamente git push
+
+( NOTA: HOY 27/09/2026: Agendar mentoria ya que no se encuentra la casilla donde se debe pegar URL de envio de trabajos. )
+R// No pude agendar para el día 28/09/2026 por que no aparece agenda disponible.  
+dejaré un mensaje en "Slack", lo mas temprano posible. Aun asi continuaré con las lecturas.
