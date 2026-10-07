@@ -89,3 +89,46 @@ EJERCICIO: Convierte esta solicitud no estructurada en un prompt claro y estruct
  -SEMANA 2: 1930 euros sin vuelo incluido.
 
                                                 
+  ## APRENDIENDO A ORGANIZAR TABLAS Y ESTRUCTURAR PROMPST EN MARKDAWN.
+
+  * MOSTRAR barras verticales (|) separar columnas. 
+  * GUIONES (-) definir encabezados.
+  * :--- alinea a la izquierda
+  * :---: centra
+  *  ---: alinea a la derecha
+  *  [XXXXXX] (URL) Enlace para referenciar fuentes o contenido directamente dentro de la indicación.
+
+ ### EJERCICIO PRACTICO
+
+-Crea una indicación en Markdown solicitando un esquema para una publicación de blog que incluya:
+
+1. Referencias enlazadas a sitios oficiales
+2. Tabla comparativa de tres plataformas de redes sociales (por ejemplo, Instagram, Twitter, TikTok)
+3. Encabezados para organizar claramente las secciones
+4. tablas, enlaces y encabezados para estructurar tu indicación de manera efectiva.
+
+
+### SOLUCION AL EJERCICIO ANTERIOR.
+
+R//.
+
+## RESUMEN 
+
+Comparativo entre tres redes sociales en tendencia.
+
+## TABLA COMPARATIVA
+---
+
+|Instagram|Twitter|Tiktok|
+|:---:|:---:|:---:|
+|fotos y videos cortos en alta definicion|noticias y tendencias|Reels y entretenimiento|
+|Usuarios aproximados: 3000 mil millones|Usuarios aproximados: 600 millones|Usuarios aproximados: 2000 millones|
+|[Instagram](https://www.instagram.com/)|[Twitter](https://x.com/)|[Tiktok](https://www.tiktok.com/)|
+
+
+## REFERENCES (redes sociales)
+- Instagram
+- Twitter 
+- Tiktok
+
+
