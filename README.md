@@ -70,17 +70,22 @@ VERBOS PRINCIPALES DE HTTP
 
 APRTENDIENDO A ORGANIZAR PROMPTS EN MARKDOWN
 
-EJERCICIO: Convierte esta solicitud no estructurada en un prompt claro y estructurado en Markdown.
+EJERCICIO: Convierte esta solicitud no estructurada en un prompt claro y estructurado en Markdown:
+
+-Quiero planear un viaje de 2 semanas a Japón incluyendo ciudades, actividades y presupuesto."
 
 # VIAJE A JAPÓN.  
 ## TIEMPO DE ESTANCIA.
 - SEMANA 1: Okinawa. 
 - SEMANA 2 Nagasaki.
 ### ACTIVIDADES.
--SEMANA 1: Senderismo, rapel y viaje turístico por las partes mas icónicas e históricas de la ciudad incluido la alimentación y seguros de estadía
+-SEMANA 1: Senderismo, rapel y viaje turístico por las partes mas icónicas e históricas de la ciudad incluido la alimentación y seguros de estadía.
+
+
 -SEMANA 2: Navegar por los puertos más representativos, además de la visita a los ´restaurantes mas importantes de la zona´.  
 ### COSTO. 
  -SEMANA 1: 1450 euros sin vuelo incluido.
+
  -SEMANA 2: 1930 euros sin vuelo incluido.
 
                                                 
