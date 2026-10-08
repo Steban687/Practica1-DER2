@@ -98,7 +98,7 @@ EJERCICIO: Convierte esta solicitud no estructurada en un prompt claro y estruct
   *  ---: alinea a la derecha
   *  [XXXXXX] (URL) Enlace para referenciar fuentes o contenido directamente dentro de la indicación.
 
- ### EJERCICIO PRACTICO
+ ### EJERCICIO PRÁCTICO
 
 -Crea una indicación en Markdown solicitando un esquema para una publicación de blog que incluya:
 
@@ -108,27 +108,29 @@ EJERCICIO: Convierte esta solicitud no estructurada en un prompt claro y estruct
 4. tablas, enlaces y encabezados para estructurar tu indicación de manera efectiva.
 
 
-### SOLUCION AL EJERCICIO ANTERIOR.
+### SOLUCIÓN AL EJERCICIO ANTERIOR.
 
 R//.
 
-## RESUMEN 
 
-Comparativo entre tres redes sociales en tendencia.
+## RESUMEN
+
+- Comparativo de tres redes sociales en tendencia.
+
+## PLATAFORMAS (redes sociales)
+- Instagram
+- X(twitter) 
+- Tiktok
+
 
 ## TABLA COMPARATIVA
----
 
-|Instagram|Twitter|Tiktok|
+|Instagram|X(Twitter)|Tiktok|
 |:---:|:---:|:---:|
-|fotos y videos cortos en alta definicion|noticias y tendencias|Reels y entretenimiento|
-|Usuarios aproximados: 3000 mil millones|Usuarios aproximados: 600 millones|Usuarios aproximados: 2000 millones|
-|[Instagram](https://www.instagram.com/)|[Twitter](https://x.com/)|[Tiktok](https://www.tiktok.com/)|
+|fotos y videos cortos en alta definición|noticias y tendencias|Videos cortos y entretenimiento|
+|Usuarios aproximados: 3.000 millones|Usuarios aproximados: 600 millones|Usuarios aproximados: 2.000 millones|
+|[Instagram](https://www.instagram.com/)|[X](https://x.com/)|[Tiktok](https://www.tiktok.com/)|
 
 
-## REFERENCES (redes sociales)
-- Instagram
-- Twitter 
-- Tiktok
 
 
