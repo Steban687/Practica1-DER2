@@ -1,10 +1,12 @@
 [{"genero":"acción"
 "año de estreno":1999,
 "puntuación":9.5,
-"premiaciones importantes":"oscares"},{"genero":"cincia ficción"
+"premiaciones importantes":"oscares"},
+{"genero":"cincia ficción"
 "año de estreno":2000,
 "puntuación":8.5,
-"premiaciones importantes":"varias nominaciones"},{"genero":"infantil",
+"premiaciones importantes":"varias nominaciones"},
+{"genero":"infantil",
 "año de estreno":2005,
 "puntuación":9,
 "premiaciones importantes":"varias nominaciones"}
