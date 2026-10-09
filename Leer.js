@@ -1,2 +1,3 @@
 const fs = require ("fs"); 
-const datos = fs.readFileSync('Practica1-JJNjson.json', 'utf-8');
+const datos = fs.readFileSync("Practica1-JJN.json","utf-8")
+console.log(datos); 
