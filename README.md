@@ -117,7 +117,7 @@ R//.
 
 - Comparativo de tres redes sociales en tendencia.
 
-## PLATAFORMAS (redes sociales)
+## PLATAFORMAS (Redes Sociales)
 - Instagram
 - X(twitter) 
 - Tiktok
@@ -132,5 +132,76 @@ R//.
 |[Instagram](https://www.instagram.com/)|[X](https://x.com/)|[Tiktok](https://www.tiktok.com/)|
 
 
+# COMANDOS J/SON (JAVA SCRIPT OBJECTS NOTATION)
 
+Un *OBJETO* es una coleccion de pares, denominados clave-valor encerrados entre llaves { }.
+Cada clave es una cadena envueltas entre comillas simples y luego su valor correspondiente tambien entre comillas y separados por dos puntos ( : )
+
+* EJEMPLO
+
+  - {
+  "username": "john_doe",
+  "email": "john@example.com",
+  "age": 28,
+  "is_active": true
+}
+
+## Arreglos JSON.
+
+Un *ARREGLO* es una lista de valores encerreados entre corchetes, [ ] tener en cuenta los valores de adentro deben estar entre " " comillas los numeros *NO*
+
+* EJEMPLO
+
+["manzana", "banana", "naranja"]
+
+* EJEMPLO DE UN ARREGLO DE OBJETOS, COMO UN CATALOGO DE PRODUCTOS.
+
+{
+  "products": [
+    {"id": 1, "name": "Laptop", "price": 999.99, "in_stock": true},
+    {"id": 2, "name": "Mouse", "price": 29.99, "in_stock": false}
+  ]
+}
+
+## REGLAS ClAVE de la Sintaxis JSON:
+
+    - Usa comillas dobles para todas las claves y valores de cadena.
+    - Separa los pares clave-valor con comas, pero *evita comas finales después del último ítem* .
+    - Los números y booleanos no llevan comillas.
+    - Se permiten objetos y arreglos anidados para estructuras de datos complejas.
+
+## Errores Comunes a Evitar:
+ 
+    - Falta de comillas en claves o cadenas.
+    - Uso de comillas simples en lugar de dobles.
+    - Comas finales después del último ítem.
+    - Mezclar tipos de datos incorrectamente (por ejemplo, poner números entre comillas).
+
+
+## Ejercicio Práctico
+
+Escribe JSON para un libro con los siguientes campos, prestando atención a:
+
+     - Usar comillas dobles para claves y valores de cadena
+     - No poner comillas en números o booleanos
+     - Usar corchetes para arreglos 
+     - Colocar las comas correctamente
+
+*Campos:
+
+1. title (cadena)
+2. author (cadena)
+3. publication_year (número)
+4. genres (arreglo de cadenas)
+5. available (booleano)
+6. Tu JSON: (Intenta escribirlo antes de verificar la validación)
+
+## R//
+
+{ "Tittle":"Viaje al Centro de la Tierra"
+  "Author":"Julio Verne"
+  "publication_year": 1864
+  "generes":["ciencia ficcion", "novela cientifica", "novela de aventuras"]
+  "available": true 
+}
 
