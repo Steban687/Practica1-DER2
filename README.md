@@ -205,3 +205,22 @@ Escribe JSON para un libro con los siguientes campos, prestando atención a:
   "available": true 
 }
 
+### EJERCICIO PRACTICO 2.
+
+El Desafío: Sistema de Hotel para Mascotas
+
+Crea un objeto JSON principal que contenga la siguiente información:
+1. Datos de la veterinaria (Cadenas y Booleanos):
+	• El nombre del hotel (cadena).
+	• La dirección física (cadena).
+	• Si está abierto las 24 horas o no (booleano).
+2. Mascota Registrada (Objeto Anidado):
+	• Crea una propiedad llamada mascota que sea un objeto con:
+		• Nombre (cadena).
+		• Especie (cadena, por ejemplo: "Perro", "Gato").
+		• Si tiene la vacuna de la rabia al día o no (booleano).
+3. Detalles de la Estancia (Objeto Anidado dentro de Mascota):
+	• Dentro del objeto de la mascota, añade un objeto llamado estancia que contenga:
+		• Fecha de ingreso (cadena).
+		• Habitación asignada (cadena, por ejemplo: "Suite Premium 4").
+		• Si incluye servicio de peluquería o no (booleano).
