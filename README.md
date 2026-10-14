@@ -178,7 +178,7 @@ Un *ARREGLO* es una lista de valores encerreados entre corchetes, [ ] tener en c
     - Mezclar tipos de datos incorrectamente (por ejemplo, poner números entre comillas).
 
 
-## Ejercicio Práctico
+## Ejercicio Práctico 1.
 
 Escribe JSON para un libro con los siguientes campos, prestando atención a:
 
@@ -205,7 +205,7 @@ Escribe JSON para un libro con los siguientes campos, prestando atención a:
   "available": true 
 }
 
-### EJERCICIO PRACTICO 2.
+## EJERCICIO PRACTICO 2.
 
 El Desafío: Sistema de Hotel para Mascotas
 
@@ -224,3 +224,17 @@ Crea un objeto JSON principal que contenga la siguiente información:
 		• Fecha de ingreso (cadena).
 		• Habitación asignada (cadena, por ejemplo: "Suite Premium 4").
 		• Si incluye servicio de peluquería o no (booleano).
+
+## EJERCICIO PRACTICO 3.
+
+1. Crea un objeto llamado restaurante que contenga la siguiente estructura: 
+   Datos generales: Nombre del restaurante y dirección (que debe ser un objeto con calle, ciudad y codigoPostal).
+
+2. ​Menú: Un objeto anidado que tenga dos categorías principales: entrantes y
+   platosPrincipales.
+
+3. Platos con ingredientes: Cada categoría debe ser una lista (array) de
+   objetos. Cada objeto representará un plato con su nombre, precio e ingredientes (los ingredientes deben ser una lista de cadenas de texto).
+
+4. ​Reserva activa: Un objeto anidado dentro de restaurante llamado 
+   ultimaReserva que contenga el nombreCliente, la hora y un objeto anidado de detallesMesa con el numeroMesa y el número de personas.

@@ -1,13 +1,15 @@
    
 
-  [{
+  {
   "NOMBRE DEL HOTEL":"THE LUCY`S HOTEL",
   "DIRECCION FISICA":"CALDAS ANTIOQUIA 193 SUR",
   "ABIERTO LAS 24 HORAS": false,
-    "MASCOTA":"KONAN",
+  "MASCOTA":{"NOMBRE":"KONAN",
   "ESPECIE":"GATO",
-  "VACUNA DE RABIA AL DIA":true
-  }]
+  "VACUNA DE RABIA AL DIA":true,
+  "ABIERTO 24 HORAS": true}
+  }
+
 
   
 
