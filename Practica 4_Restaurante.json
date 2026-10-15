@@ -1,30 +1,29 @@
 
  {
        "restaurante":{
-       "datos generales":{"nombre":"EL BUEN COMENZAL",
-       "direccion":{
-       "calle":"DIAGONAL 48 # 34-24",
-       "ciudad":"ITAGUI ANTIOUIA",
-       "codigo postal":57968}}
+            "datos generales":{
+            "nombre":"EL BUEN COMENZAL",
+            "direccion":{
+            "calle":"DIAGONAL 48 # 34-24",
+            "ciudad":"ITAGUI ANTIOUIA",
+            "codigo postal":57968}}
                      },
-        "menú":{
-        "entrantes":"TAPITAS MEDITERRANEAS",
+       "menú":{
+        "categoria 1":{"entrantes":"TAPITAS MEDITERRANEAS",
         "ingrediente entrantes":["Arroz sofrito","Guisado Cubano","mariscos al limón"],
-        "precio entrantes":25,
+        "precio entrantes":25},
         "platos principales":{
-        "Plato 1":"SPAGGETI CON CARNE DE DIABLO",                
-        "ingredientes plato 1":"spaguetti en leche dulce y carne sofrita de diablo",
+        "SPAGGETI CON CARNE DE DIABLO":"ingredientes plato 1"
+        ["spaguetti","leche dulce","carne sofrita de diablo"],
         "precio plato 1":"28.50",
         "plato 2":"ARROZ CON CAMARONES",  
         "ingredientes plato 2":"Arroz guisado con camarones en salsa de ajo",
-        "precio plato 2":"25.30"}},
-
-        "cliente":"ESTEBAN RAMIREZ",
-        "hora":"4.20",
-        "mesa":12,
-        "numero de personas":18
-
+        "precio plato 2":"25.30"}}
 }
+      
+      
+
+
 
   
 
