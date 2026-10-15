@@ -242,3 +242,32 @@ Crea un objeto JSON principal que contenga la siguiente información:
 
 4. ​Reserva activa: Un objeto anidado dentro de restaurante llamado 
    ultimaReserva que contenga el nombreCliente, la hora y un objeto anidado de detallesMesa con el numeroMesa y el número de personas.
+
+# QUE ES YAML 
+
+* Mientras que JSON es preciso y amigable para máquinas, puede ser engorroso para que  
+  los humanos lo lean y editen, especialmente en configuraciones profundamente anidadas. Markdown es excelente para prosa y documentación, pero carece de la precisión necesaria para datos estructurados. YAML cierra esta brecha ofreciendo:
+
+* Legibilidad: Sintaxis mínima, sin llaves ni comillas en la mayoría de los casos.
+  Jerarquía: Estructura clara mediante indentación.
+  Comentarios: Capacidad para añadir notas legibles para humanos.
+  Flexibilidad: Soporta datos anidados complejos con facilidad.
+
+
+ ## Cuándo Usar YAML 
+    
+    YAML brilla en escenarios donde:
+    Necesitas representar datos de configuración que los humanos leerán y editarán frecuentemente.
+    Tus datos son jerárquicos o anidados, como configuraciones de proyectos, despliegues o especificaciones de API.
+    Quieres incluir comentarios para explicar partes de tus datos.
+    La legibilidad y mantenibilidad son prioridades sobre la validación estricta por 
+    máquina.
+    
+    YAML Comparado con Otros Formatos:
+
+    |:--Formato--:| 	|:--Legibilidad--:| 	|:--Precisión--:|   |:--Caso de Uso--:|
+    Markdown--:|	     |:-- Alta--:|	 |:--Baja	Prosa--:|     |:--documentación--:|
+     |:--JSON--:|	   Media	Alta--:|	  |:-- Intercambio de datos--:|  |:--APIs--:|
+    |:--YAML--:|	   Alta	Media--:|	|:-- Configuración--:|         |:--datos |:--editables--:|
+     |:--TOON--:|	   |:--Media Alta--:| |:--Datos eficientes--:|    |:--en tokens--:|
+
