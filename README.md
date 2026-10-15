@@ -258,17 +258,76 @@ Crea un objeto JSON principal que contenga la siguiente información:
     
     YAML brilla en escenarios donde:
     Necesitas representar datos de configuración que los humanos leerán y editarán frecuentemente.
-    Tus datos son jerárquicos o anidados, como configuraciones de proyectos, despliegues o especificaciones de API.
-    Quieres incluir comentarios para explicar partes de tus datos.
-    La legibilidad y mantenibilidad son prioridades sobre la validación estricta por 
-    máquina.
-    
-    YAML Comparado con Otros Formatos:
+    Tus datos son jerárquicos o anidados, como configuraciones de proyectos, despliegues o especificaciones de API,
+    quieres incluir comentarios para explicar partes de tus datos.
+    La legibilidad y mantenibilidad son prioridades sobre la validación estricta por máquina.
 
-    Formato 	Legibilidad       	Precisión   	   Caso de Uso
-    |--:--|      |--:--|             |--:--|            |--:--|
-    |Markdown	|   Alta	      |      Baja	Prosa   |    |documentación|
-    | JSON	|   Media	Alta	|  Intercambio de datos|    |APIs|
-     |YAML	|   Alta	Media	   |      Configuración   |  datos editables|
-     |TOON	|  Media	 Alta	   |     Datos eficientes |    en tokens|
 
+ ## YAML Comparado con Otros Formatos:
+
+---
+
+|*FORMATO*|*LEGIBILIDAD*|*PRECISIÓN*|*CASO DE USO*|
+|:---:|:---:|:---:|:---:|
+| Markdown | Alta |Baja	Prosa | documentación |
+| JSON | Media	Alta | Intercambio de datos|APIs |
+| YAML | Alta	Media | Configuración|datos editables |
+| TOON | Media Alta | Datos eficientes | en tokens |
+
+
+# CARACTERÍSTICAS CLAVE DE YAML
+
+* Jerarquía basada en indentación: Usa espacios (usualmente 2) para denotar anidamiento.
+* Listas: Representadas con guiones (-) para facilitar la lectura.
+* Mapeos: Pares clave-valor sin llaves.
+* Cadenas multilínea: Manejo sencillo con estilos | (literal) y > (plegado).
+* Comentarios: Líneas que comienzan con # para explicaciones.
+
+## FUNDAMENTOS DE YAML: SANGRÍA, LISTAS Y MAPEOS
+
+* La sintaxis de YAML se basa en la sangría consistente y una estructura clara. Dominar estos fundamentos asegura 
+  que tu IA entienda tus indicaciones exactamente como las deseas.
+
+* Sangría: La columna vertebral de YAML
+  YAML utiliza espacios (comúnmente 2 por nivel) para indicar jerarquía y anidamiento. Nunca uses tabulaciones, ya que mezclar tabulaciones y espacios causa errores. 
+
+* Mapeos: Pares clave-valor
+  Los mapeos son pares clave-valor simples separados por dos puntos y un espacio:
+
+   ejemplo 
+           Banda musical:Immortal
+
+## CADENAS Y COMILLAS
+
+* Generalmente, las cadenas no necesitan comillas a menos que contengan caracteres especiales o comiencen con     
+  símbolos:
+
+     ejemplo 
+              password:"secret:123"
+              key:"@special"
+
+## CADENAS MULTILÍNEA
+
+   YAML soporta cadenas multilínea con dos estilos:
+
+## Estilo literal (|) preserva los saltos de línea
+
+* description: | Esta es la línea uno. Esta es la línea dos.
+
+- ** Estilo plegado (`>`)** pliega las líneas en una sola línea:
+
+ * ejemplo de como se pliega las lineas en una sola:
+
+                ```yaml
+summary: >
+Este texto será plegado
+en una sola línea.
+
+### EJERCICIO PRÁCTICO: YAML
+
+* Tu tarea: Convierte este JSON a YAML, prestando atención a:
+
+       - Usar 2 espacios para la sangría (¡no tabulaciones!)
+       - Eliminar llaves y corchetes
+       - Usar guiones para elementos de lista
+       - Mantener la jerarquía adecuada

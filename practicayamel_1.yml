@@ -1,2 +1,9 @@
- 
-viajes:  colombia
+course:
+  title: AI Basics
+  lessons: 
+  - id: 1 
+    name: Introduction
+  - id: 2
+    name: Core Concepts
+
+
