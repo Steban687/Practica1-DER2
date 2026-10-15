@@ -266,7 +266,7 @@ Crea un objeto JSON principal que contenga la siguiente información:
     YAML Comparado con Otros Formatos:
 
     Formato 	Legibilidad       	Precisión   	   Caso de Uso
-    |--:--|      |--:--|             |--:--|            |--:--|
+    |:---:|      |:---:|             |:---:|            |:---:|
     |Markdown	|   Alta	      |      Baja	Prosa   |    |documentación|
     | JSON	|   Media	Alta	|  Intercambio de datos|    |APIs|
      |YAML	|   Alta	Media	   |      Configuración   |  datos editables|
