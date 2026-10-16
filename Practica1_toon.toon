@@ -1,0 +1,17 @@
+
+* practica convertir de json a toon *
+
+{
+  "estudiantes": [
+    {"id": 1, "nombre": "Alicia", "calificación": "A", "edad": 20},
+    {"id": 2, "nombre": "Bob", "calificación": "B", "edad": 21},
+    {"id": 3, "nombre": "Charlie", "calificación": "A", "edad": 19}
+  ]
+}
+  estudiantes: 
+    Curso: 11 
+    alumnos[3]{id,name,score,age}:
+    1,113216540,Alicia,A,20
+    2,654654865,Bob,B,21
+    3,1364648998,Charlie,A,19
+  

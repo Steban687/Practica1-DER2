@@ -331,3 +331,55 @@ en una sola línea.
        - Eliminar llaves y corchetes
        - Usar guiones para elementos de lista
        - Mantener la jerarquía adecuada
+
+## TOON: 
+
+ * Es un formato que permite ahorrar tokens y velocidad de cobro al interactuar con la IA, se vuelve útil para   
+   interacciones donde la escala y el costo importan.
+
+## ¿Qué es TOON?
+
+ * TOON significa *Token-Oriented Object Notation (Notación de Objetos Orientada a Tokens)*. Creado a finales de 
+   2024, es un formato de datos compacto que reduce el uso de tokens entre un 30 y 60% en comparación con JSON. Esta eficiencia es crucial porque cada token procesado por modelos de IA puede afectar el costo y la velocidad.
+    
+     -  EJEMPLO 1:
+      
+         -toon
+          users[3]{id,name,role}:
+          1,Alice,admin
+          2,Bob,user
+          3,Charlie,user
+
+      -  EJEMPLO 1:
+
+          company:
+          name: TechCorp
+          employees[2]{id,name,department}:
+          101,Alice,Engineering
+          102,Bob,Design
+
+### Cuándo usar TOON:
+
+- Para generar grandes conjuntos de datos con estructura uniforme.
+- En llamadas de IA de alto volumen donde el ahorro de tokens suma.
+- En escenarios donde la verbosidad de JSON es un cuello de botella.
+
+
+### Cuándo TOON podría no ser la mejor opción
+- Datos profundamente anidados o muy variados.
+- Cuando la legibilidad humana es una prioridad.
+- Si tu modelo de IA tiene soporte limitado para TOON.
+
+# PRÁCTICA : CONVERTIR JSON A TOON 
+
+ * {
+  "estudiantes": [
+    {"id": 1, "nombre": "Alicia", "calificación": "A", "edad": 20},
+    {"id": 2, "nombre": "Bob", "calificación": "B", "edad": 21},
+    {"id": 3, "nombre": "Charlie", "calificación": "A", "edad": 19}
+  ]
+}
+
+R// 
+   
+   
