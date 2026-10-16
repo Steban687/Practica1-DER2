@@ -350,7 +350,16 @@ en una sola línea.
           2,Bob,user
           3,Charlie,user
 
+<<<<<<< HEAD
       -  EJEMPLO 1:
+=======
+    Formato 	Legibilidad       	Precisión   	   Caso de Uso
+    |:---:|      |:---:|             |:---:|            |:---:|
+    |Markdown	|   Alta	      |      Baja	Prosa   |    |documentación|
+    | JSON	|   Media	Alta	|  Intercambio de datos|    |APIs|
+     |YAML	|   Alta	Media	   |      Configuración   |  datos editables|
+     |TOON	|  Media	 Alta	   |     Datos eficientes |    en tokens|
+>>>>>>> 2de8af847e60a02b9c5e65e668deca6d4983b0f9
 
           company:
           name: TechCorp
