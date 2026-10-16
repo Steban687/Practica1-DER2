@@ -349,23 +349,23 @@ en una sola línea.
           1,Alice,admin
           2,Bob,user
           3,Charlie,user
-
-<<<<<<< HEAD
-      -  EJEMPLO 1:
-=======
-    Formato 	Legibilidad       	Precisión   	   Caso de Uso
-    |:---:|      |:---:|             |:---:|            |:---:|
-    |Markdown	|   Alta	      |      Baja	Prosa   |    |documentación|
-    | JSON	|   Media	Alta	|  Intercambio de datos|    |APIs|
-     |YAML	|   Alta	Media	   |      Configuración   |  datos editables|
-     |TOON	|  Media	 Alta	   |     Datos eficientes |    en tokens|
->>>>>>> 2de8af847e60a02b9c5e65e668deca6d4983b0f9
+ 
+      -  EJEMPLO 2:
 
           company:
           name: TechCorp
           employees[2]{id,name,department}:
           101,Alice,Engineering
           102,Bob,Design
+
+---     
+
+ |Formato|Legibilidad|Precisión|Caso de Uso|
+ |:---:|:---:|:---:|:---:|
+ |Markdown|Alta|Baja Prosa|documentación|
+ |JSON|Media Alta|Intercambio de datos|APIs|
+ |YAML|Alta	Media|Configuración|datos editables|
+ |TOON|Media Alta|Datos eficientes|en tokens|
 
 ### Cuándo usar TOON:
 
