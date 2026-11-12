@@ -125,11 +125,13 @@ R//.
 
 ## TABLA COMPARATIVA
 
-|Instagram|X(Twitter)|Tiktok|
-|:---:|:---:|:---:|
-|fotos y videos cortos en alta definición|noticias y tendencias|Videos cortos y entretenimiento|
-|Usuarios aproximados: 3.000 millones|Usuarios aproximados: 600 millones|Usuarios aproximados: 2.000 millones|
-|[Instagram](https://www.instagram.com/)|[X](https://x.com/)|[Tiktok](https://www.tiktok.com/)|
+
+|PLATAFORMA |USUARIOS(millones)|CARACTERISTICAS CLAVE|SITIO OFICIAL|
+|:---:|:---:|:---:|:---:|
+|Instagram|3.000|social centrada en el contenido visual que permite compartir fotos, videos cortos, transmisiones en vivo y mensajes privados.|[Instagram](https://www.instagram.com/)| 
+|X(Twitter)|600|lataforma de microblogging y debate en tiempo real centrada en la conversación pública, las noticias de última hora y el contenido multimedia.|[X](https://x.com/)|
+|Tiktok|2.000| plataforma de entretenimiento digital centrada en videos verticales cortos que utiliza un potente algoritmo de recomendación basado en intereses para conectar a creadores y audiencias.|[Tiktok](https://www.tiktok.com/)|
+
 
 
 # COMANDOS J/SON (JAVA SCRIPT OBJECTS NOTATION)
